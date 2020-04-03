@@ -1,8 +1,9 @@
 # 结构
 ```
-index.html----script.js
-              |----qrcodewriter(zxing-ts)
-              |----JsBarcode
+index.html
+    |----script.js
+    |----qrcodewriter(zxing-ts)
+    |----JsBarcode
 ```
 因为html+js做这个功能很快，所以我选择了html。<br>
 为了做得尽量简单，用了不需要class的`water.css`来做美化，标签也尽量使用原生的，js DOM操作也使用的自带接口实现。<br>
